@@ -2,51 +2,51 @@
 
 ## Objective
 
-Build a Flag App using jQuery.
+- In order to improve my knowledge of jQuery, which I have been trying to learn recently, I tried to do the Flag App project, which I had done with Vanilla Javascript, this time with jQuery.
 
-<!-- 
 ## Description
 
-- Project aims to create a Flag App. 
-- In this project i made a simple flag app.
+- In this project I made a simple Flag App with jQuery.
 - After selecting the country from the dropdown list, you can see the relevant country's flag, capital, region, language and currency information.
-- I use fetch API for getting data from `https://restcountries.com/v3.1/all`.
+- I use fetch API for getting data from `https://restcountries.com/v3.1/all` and Bootstrap 5 for styling .
 
 ## Project Link
 
-##### You can reach my project from [here](https://flag-app-bootstrap.netlify.app/) 👈
+##### You can reach my project from [here](https://jquery-flag-app.vercel.app/) 👈
 
 ### Built With
 
 - HTML
 - CSS
 - JS
-- Bootstrap
-- Fetch API
+- jQuery
+- Ajax 
+- Rest Countries API
+- Bootstrap 
 
 ### Project Skeleton
 
 ```
-flag_app (folder)
-|----readme.md
+jQuery-flag-app (folder)
+|── README.md
 SOLUTION
 ├── assets
+│      ├── images
+│      │      └── favicon.png
 │      ├── app.js
-│      ├── morphius.jpg
 │      └── style.css
 └── index.html
-└── readme.md
 ```
 
 ### Installation
 
 ```
-$ git clone https://github.com/esadakman/flag_app.git
-$ cd flag_app
+$ git clone https://github.com/esadakman/jQuery-flag-app.git
+$ cd jQuery-flag-app
 ```
 
-Open the project with VS Code or other IDE's
+- Open the project with VS Code or other IDE's
 
 ### Preview of the Project
 
-![flag](https://user-images.githubusercontent.com/98649983/180999412-48c68d83-ae63-49cd-b42a-07404db5fef0.gif)   -->
+<img src='./jquery-flag-app.gif' alt="project gif" />
