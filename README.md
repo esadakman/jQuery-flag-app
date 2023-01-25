@@ -1,4 +1,4 @@
-# Random Flag App
+# jQuery-flag-app
 
 ## Objective
 

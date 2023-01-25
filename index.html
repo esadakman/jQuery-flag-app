@@ -17,23 +17,22 @@
 </head>
 
 <body class="bg-light">
-  <section class="container bg-dark py-3 my-2 rounded-3 col-11 col-md-8 col-lg-6 ">
+  <section class="container bg-dark my-3 py-3 rounded-3 col-11 col-md-8 col-lg-6 ">
     <header class="d-flex justify-content-center flex-column ">
       <div class="title py-3">
-        <h2 class="text-white">Flag App</h2>
+        <h2 class="text-white p-2">Flag App</h2>
         <i class="fa-solid fa-flag text-danger fa-4x py-2 "></i>
       </div>
 
-      <select class="form-select w-75 m-auto ">
+      <select class="form-select w-100 m-auto my-3">
 
       </select>
 
     </header>
     <div class="country_cards">
-      <p>asd</p>
-    </div>
-    <!-- <div class="section d-flex justify-content-center">
 
+    </div>
+    <!-- <div class="section d-flex justify-content-center"> 
     <div class="card shadow-lg my-5" style="width: 18rem;">
         <img src="./morphius.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -51,6 +50,11 @@
 
   <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
   <script src="./assets/app.js"></script>
+  <script>
+    $(window).on("load", () => {
+      getAllCountryName();
+    }); 
+  </script>
 </body>
 
 </html>
